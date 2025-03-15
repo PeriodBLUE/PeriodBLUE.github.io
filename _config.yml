@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "个人网页"
+title: "个人网页"
 description              : "国家网络安全学院 网络空间安全专业 2022级本科生""
-repository               : "PeriodBLUE/PeriodBLUE.github.io"
+repository: "PeriodBLUE/PeriodBLUE.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -22,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Fengyuan Ran"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "武汉大学"
-  location         : "湖北省武汉市"
+  avatar: "images/android-chrome-512x512.png"
+  bio: "武汉大学"
+  location: "湖北省武汉市"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "rfy_Reflow@whu.edu.cn"
+  googlescholar: "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  email: "rfy_Reflow@whu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -43,12 +43,12 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin: # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow: # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
   twitter          : 

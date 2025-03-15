@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Fengyuan Ran (冉丰源)"
+  name             : "Fengyuan Ran"
   avatar: "images/android-chrome-512x512.png"
   bio: "武汉大学"
   location: "湖北省武汉市"

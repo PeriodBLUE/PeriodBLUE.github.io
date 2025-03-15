@@ -17,10 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+大家好！我是 Ran Fengyuan，目前是本科三年级，就读于武汉大学国家网络安全学院网络空间安全专业。
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+我对网络安全和人工智能充满热情，自入学以来，积极参与各类科研项目和学术竞赛，曾获得国家奖学金和多项校内外奖项。在科研方面，我参与并主导了多个项目，包括但不限于**人工智能安全**、**时序点过程**、**持续学习**、**联邦学习**、**模型压缩**等领域。
 
+# 🎓 Education Background
+- **排名：平均学分绩点排名： 5/140 (3%)
+- **成绩均分：** GPA：3.94/4.0、加权平均分：?/100
+- **语言能力：** 已通过 CET4 和 CET6，具备良好的英语文献阅读和写作能力
+- **核心课程：** 概率论与数理统计(95)、高等数学(94,96)、信息安全数学基础II(100)、算法设计与分析(95)、数据结构(90)、机器学习(92)、自然语言处理(92)、舆情分析(94)、Linux分析与安全设计(100)、数字取证(98)
+- **编程能力：** 编程常用语言为 C++、Python，熟悉算法与数据结构，抽象能力强，代码风格良好，熟练掌握 PyTorch、Numpy、Pandas，熟悉各类深度学习模型及其编程实现
+- **开发工具：** VS Code，PyCharm，Jupyter Notebook，LATEX(Overleaf)，Git
+- **在校荣誉：** 国家奖学金 (￥10000，全校共？人)、武汉大学三好学生、武汉大学国家网络安全学院科创先进个人及多项竞赛奖金，在校累计获奖金额逾？元
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 

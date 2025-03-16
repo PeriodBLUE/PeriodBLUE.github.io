@@ -50,6 +50,17 @@ redirect_from:
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
+# 🏆 Competition Awards
+- **中国高校计算机大赛-网络技术挑战赛（全国总决赛）：一等奖** *国家级* 2024 &nbsp;&nbsp;[[证明]](../docs/2024CCCC.jpg)
+- **中国机器人及人工智能大赛（全国总决赛）：一等奖** *国家级* 2024 &nbsp;&nbsp;[[证明]](../docs/2024CRAIC.png)
+- **睿抗(RAICOM)机器人开发者大赛（全国总决赛）：一等奖** *国家级* 2024 &nbsp;&nbsp;[[证明]](..docs/2024RAICOM.jpg)
+- **全国大学生物联网设计竞赛（华中及西南赛区）：一等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](../docs/wulianwang.jpg)
+- **中国大学生计算机设计大赛（中南地区赛）：二等奖** *省部级* 2023 &nbsp;&nbsp;[[证明]](../docs/2024jishedataCountry.jpg)
+- **“蓝桥杯”数字科技创新赛（全国选拨赛）：二等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](../docs/2024lianqiaobei.jpg)
+- **“盘古石杯”全国电子数据取证大赛（晋级赛）：二等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](../docs/2024pangushi.jpg)
+- **中国大学生计算机设计大赛（中南地区赛）：三等奖** *省部级* 2024 &nbsp;&nbsp;[[证明]](../docs/2024jisheDtformer.jpg)
+
+
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 

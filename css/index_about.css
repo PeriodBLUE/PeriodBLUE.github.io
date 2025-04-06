@@ -427,6 +427,23 @@ blockquote p {
   }
 }
 
+body.about-page h1 {
+  font-size: 3rem;
+}
+body.about-page h2 {
+  font-size: 2.4rem !important; 
+}
+body.about-page h3 {
+  font-size: 2.0rem !important;
+}
+body.about-page h4 {
+  font-size: 1.6rem !important;
+}
+body.about-page p,
+body.about-page li {
+  font-size: 1.6rem !important;
+}
+
 .menus_icon {
   display: inline-block;
   position: absolute;

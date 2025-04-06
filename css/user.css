@@ -12,6 +12,16 @@ textarea {
 :lang(en) {
   font-family: "Microsoft YaHei", "微软雅黑", sans-serif !important;
 }
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
 .publication-item {
   display: flex;
   align-items: center;
@@ -57,7 +67,6 @@ textarea {
 }
 .publication-title {
   margin: 0;
-font
 }
 .publication-item .publication-title {
   font-size: 1.8rem;

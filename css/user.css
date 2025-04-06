@@ -176,6 +176,7 @@ body {
   font-family: "Microsoft YaHei", "微软雅黑", sans-serif !important;
 }
 .page li strong {
+  padding: 0.4em 0 !important;
   font-weight: 600 !important;
   font-size: 1.9rem !important;
   font-family: "Microsoft YaHei", "微软雅黑", sans-serif !important;

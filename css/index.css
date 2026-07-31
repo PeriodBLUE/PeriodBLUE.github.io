@@ -76,6 +76,17 @@ img { display: block; max-width: 100%; }
 .education-item .status-title { margin-bottom: 5px; font-size: 12px; line-height: 1.45; }
 .education-item .status-detail { font-size: 11px; }
 .status-divider { width: 28px; height: 1px; margin: 24px 0; background: var(--cyan); }
+.experience-divider { margin: 25px 0 17px; }
+.experience-label { margin-bottom: 14px; }
+.experience-list { display: grid; gap: 17px; }
+.experience-item { display: grid; grid-template-columns: 86px 32px minmax(0, 1fr); gap: 10px; align-items: start; }
+.experience-years { color: var(--cyan); font: 700 11px/1.35 var(--serif); }
+.experience-years em { display: block; margin-top: 3px; color: var(--muted); font: 10px/1.3 var(--sans); font-style: normal; text-transform: lowercase; }
+.company-mark { display: inline-flex; width: 32px; height: 32px; align-items: center; justify-content: center; border-radius: 9px; box-shadow: 0 5px 12px rgba(22, 44, 63, .1); color: #fff; font: 700 17px/1 var(--sans); letter-spacing: -.06em; }
+.company-mark-didi { background: #ef4b43; }
+.company-mark-jd { background: #d92828; font-size: 11px; letter-spacing: -.08em; }
+.experience-item .status-title { margin: 0 0 4px; font-size: 12px; line-height: 1.45; }
+.experience-item .status-detail { font-size: 11px; }
 
 .section-heading { display: flex; align-items: center; gap: 14px; }
 .section-heading-inline { margin-bottom: 20px; }
@@ -146,6 +157,7 @@ img { display: block; max-width: 100%; }
   .hero-grid { grid-template-columns: 1fr; gap: 32px; }
   .hero-status { display: block; padding: 16px 0 0; border-top: 1px solid var(--line); border-left: 0; }
   .hero-status .status-divider { width: 28px; height: 1px; margin: 18px 0; }
+  .hero-status .experience-divider { margin: 20px 0 16px; }
   .news-columns { grid-template-columns: 1fr; gap: 32px; }
   .news-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 0; }
   .featured-paper { grid-template-columns: 1fr; }
@@ -191,6 +203,7 @@ img { display: block; max-width: 100%; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 17px; margin-top: 27px; }
   .hero-status { padding-top: 17px; }
   .hero-status .status-divider { margin: 16px 0; }
+  .hero-status .experience-divider { margin: 18px 0 15px; }
   .status-title, .status-detail { font-size: 12px; }
   .news-section, .publications-section, .research-section, .visual-note-section { padding-bottom: 53px; }
   .section-heading-inline { align-items: flex-start; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 18px; }

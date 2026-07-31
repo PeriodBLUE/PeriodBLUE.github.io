@@ -47,11 +47,11 @@ img { display: block; max-width: 100%; }
 .rail-contact:hover { background: var(--ink); color: #fff; }
 
 .content-column { min-width: 0; padding: 74px 0 0; }
-.hero-section { padding-bottom: 76px; }
+.hero-section { padding-bottom: 40px; }
 .section-kicker, .section-label, .status-label, .paper-type { color: var(--cyan); font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 .section-kicker { margin-bottom: 23px; }
 .section-kicker span { padding: 0 4px; color: #a9b8bf; }
-.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 190px; gap: 60px; align-items: end; }
+.hero-grid { display: block; }
 .hero-copy h1 { max-width: 670px; margin: 0 0 24px; font: 400 clamp(42px, 5.2vw, 74px)/1.12 var(--serif); letter-spacing: -.055em; }
 .hero-lede { max-width: 650px; margin: 0; color: var(--ink-soft); font-size: 17px; line-height: 1.7; }
 .hero-note { display: flex; max-width: 575px; gap: 12px; margin: 25px 0 0; color: var(--ink-soft); font-size: 13px; line-height: 1.5; }
@@ -65,26 +65,25 @@ img { display: block; max-width: 100%; }
 .text-link { display: inline-flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--ink-soft); color: var(--ink); font-size: 13px; text-decoration: none; transition: color .2s ease, border-color .2s ease; }
 .text-link:hover { border-color: var(--cyan); color: var(--cyan); }
 .text-link i { font-size: 11px; }
-.hero-status { padding: 0 0 6px 21px; border-left: 1px solid var(--line); }
-.status-label { margin-bottom: 9px; color: var(--muted); font-size: 9px; }
 .status-title { margin: 0 0 4px; font: 700 15px/1.35 var(--serif); }
 .status-detail { margin: 0; color: var(--ink-soft); font-size: 12px; line-height: 1.55; }
-.education-list { margin-top: 17px; }
-.education-item { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; align-items: start; }
+.status-board { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin: 0 0 73px; }
+.status-panel { min-width: 0; padding: 21px 23px 23px; border: 1px solid var(--line); border-top: 2px solid var(--ink); background: rgba(255,255,255,.34); }
+.status-panel-heading { display: flex; align-items: center; gap: 11px; margin-bottom: 20px; }
+.panel-rule { height: 1px; flex: 1; background: var(--line); }
+.panel-index { color: var(--muted); font-size: 10px; letter-spacing: .12em; }
+.education-list, .experience-list { display: grid; gap: 0; }
+.education-item, .experience-item { display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 14px; align-items: start; }
+.education-item + .education-item, .experience-item + .experience-item { margin-top: 21px; padding-top: 21px; border-top: 1px solid var(--line); }
+.institution-mark { width: 38px; height: 38px; object-fit: contain; }
 .education-years { color: var(--cyan); font: 700 11px/1.35 var(--serif); }
-.education-years em { display: block; margin-top: 3px; color: var(--muted); font: 10px/1.3 var(--sans); font-style: normal; }
 .education-item .status-title { margin-bottom: 5px; font-size: 12px; line-height: 1.45; }
 .education-item .status-detail { font-size: 11px; }
-.status-divider { width: 28px; height: 1px; margin: 24px 0; background: var(--cyan); }
-.experience-divider { margin: 25px 0 17px; }
-.experience-label { margin-bottom: 14px; }
-.experience-list { display: grid; gap: 17px; }
-.experience-item { display: grid; grid-template-columns: 86px 32px minmax(0, 1fr); gap: 10px; align-items: start; }
+.status-meta { display: flex; align-items: baseline; flex-wrap: wrap; gap: 7px 10px; margin-bottom: 7px; }
+.status-current { color: var(--muted); font-size: 10px; letter-spacing: .04em; text-transform: lowercase; }
 .experience-years { color: var(--cyan); font: 700 11px/1.35 var(--serif); }
-.experience-years em { display: block; margin-top: 3px; color: var(--muted); font: 10px/1.3 var(--sans); font-style: normal; text-transform: lowercase; }
-.company-mark { display: inline-flex; width: 32px; height: 32px; align-items: center; justify-content: center; border-radius: 9px; box-shadow: 0 5px 12px rgba(22, 44, 63, .1); color: #fff; font: 700 17px/1 var(--sans); letter-spacing: -.06em; }
-.company-mark-didi { background: #ef4b43; }
-.company-mark-jd { background: #d92828; font-size: 11px; letter-spacing: -.08em; }
+.company-mark { display: grid; place-items: center; width: 38px; height: 38px; overflow: hidden; border: 1px solid var(--line); border-radius: 10px; background: #fff; box-shadow: 0 5px 12px rgba(22, 44, 63, .08); }
+.company-mark img { width: 34px; height: 34px; object-fit: contain; }
 .experience-item .status-title { margin: 0 0 4px; font-size: 12px; line-height: 1.45; }
 .experience-item .status-detail { font-size: 11px; }
 
@@ -154,10 +153,7 @@ img { display: block; max-width: 100%; }
 @media (max-width: 980px) {
   .header-inner, .site-shell, .site-footer { width: min(100% - 40px, 760px); }
   .site-shell { grid-template-columns: 175px minmax(0, 1fr); gap: 40px; }
-  .hero-grid { grid-template-columns: 1fr; gap: 32px; }
-  .hero-status { display: block; padding: 16px 0 0; border-top: 1px solid var(--line); border-left: 0; }
-  .hero-status .status-divider { width: 28px; height: 1px; margin: 18px 0; }
-  .hero-status .experience-divider { margin: 20px 0 16px; }
+  .hero-grid { display: block; }
   .news-columns { grid-template-columns: 1fr; gap: 32px; }
   .news-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 0; }
   .featured-paper { grid-template-columns: 1fr; }
@@ -201,9 +197,8 @@ img { display: block; max-width: 100%; }
   .hero-lede { font-size: 15px; line-height: 1.65; }
   .hero-note { font-size: 12px; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 17px; margin-top: 27px; }
-  .hero-status { padding-top: 17px; }
-  .hero-status .status-divider { margin: 16px 0; }
-  .hero-status .experience-divider { margin: 18px 0 15px; }
+  .status-board { display: flex; gap: 14px; margin-bottom: 53px; padding-bottom: 8px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; }
+  .status-panel { flex: 0 0 min(86vw, 360px); padding: 19px 18px 21px; scroll-snap-align: start; }
   .status-title, .status-detail { font-size: 12px; }
   .news-section, .publications-section, .research-section, .visual-note-section { padding-bottom: 53px; }
   .section-heading-inline { align-items: flex-start; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 18px; }

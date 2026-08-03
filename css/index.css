@@ -97,6 +97,8 @@ img { display: block; max-width: 100%; }
 .group-rule { height: 1px; flex: 1; background: var(--line); }
 .news-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .news-item { min-width: 0; min-height: 102px; padding: 0 17px; border-left: 1px solid var(--line); }
+.news-item .award-context { color: var(--ink); font-weight: 700; }
+.news-item .award-rate { display: inline; padding: 1px 4px; background: var(--cyan-soft); color: var(--ink); font-weight: 700; white-space: nowrap; }
 .news-grid .news-item:nth-child(odd) { padding-left: 0; border-left: 0; }
 .news-grid .news-item:nth-child(even) { padding-right: 0; }
 .news-item time { color: var(--ink); font: 700 12px var(--serif); }

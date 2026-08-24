@@ -32,12 +32,12 @@ body {
   font: 400 15px/1.65 var(--sans);
   background-color: var(--bg);
   background-image:
-    url("/img/paper-texture.png"),
+    url("/img/paper-texture.webp"),
     radial-gradient(circle at 9% 18%, rgba(255, 237, 229, 0.82) 0, rgba(255, 237, 229, 0) 32%),
     radial-gradient(circle at 95% 8%, rgba(216, 239, 247, 0.88) 0, rgba(216, 239, 247, 0) 34%),
     linear-gradient(135deg, #f9f7f3 0%, #f5f7f7 47%, #edf5f8 100%);
   background-blend-mode: soft-light, normal, normal, normal;
-  background-size: 760px 760px, 90vw 80vh, 90vw 90vh, cover;
+  background-size: 512px 512px, 90vw 80vh, 90vw 90vh, cover;
   background-attachment: fixed;
 }
 
@@ -273,9 +273,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
   box-shadow: 0 2px 4px rgba(17, 42, 74, 0.05), 0 8px 18px rgba(17, 42, 74, 0.07);
 }
 .company-mark img { width: 40px; height: 40px; object-fit: contain; }
-.company-mark--jd { border-color: rgba(16, 43, 74, 0.24); background: linear-gradient(145deg, #26415e, #112b48); }
-.company-mark--jd img { width: 40px; height: 34px; }
-.company-mark--didi img { width: 40px; height: 32px; }
+.company-mark--jd { border-color: rgba(63, 88, 112, 0.16); background: rgba(240, 245, 248, 0.94); }
+.company-mark--jd img { width: 40px; height: auto; filter: drop-shadow(0 1px 1px rgba(17, 42, 74, 0.2)); }
+.company-mark--didi img { width: 40px; height: auto; }
 .status-meta { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 8px; margin-bottom: 3px; }
 .education-years, .experience-years { color: var(--cyan-deep); font-size: 10px; font-weight: 700; }
 .status-current { color: var(--muted); font-size: 9px; }

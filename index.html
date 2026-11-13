@@ -11,7 +11,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="/css/index.css?v=20261016-1">
+  <link rel="stylesheet" href="/css/live-index.css">
+<link rel="stylesheet" href="/css/agent-network.css?v=2">
+<script defer src="/js/agent-network.js?v=2"></script>
+<link rel="stylesheet" href="/css/delight.css">
+<script defer src="/js/delight.js"></script>
+<link rel="stylesheet" href="/css/refinement.css?v=1">
 </head>
 <body>
   <header class="site-header">
@@ -55,12 +60,12 @@
       </div>
 
       <aside id="research" class="interest-panel glass-panel reveal" style="--delay: 240ms" aria-label="Research interests">
-        <div class="section-label">Research interests</div>
+        <div class="network-heading"><div class="section-label">Research interests</div><button type="button" id="network-motion" aria-label="Pause network animation" aria-pressed="false" title="Pause network animation"><canvas id="agent-network" aria-hidden="true"></canvas></button></div>
         <ol class="interest-list">
-          <li><span class="interest-index">01</span><div><h2>Multi-Agent Systems</h2><p>Designing collaborative, adaptive agents that reason and act in changing environments.</p></div></li>
-          <li><span class="interest-index">02</span><div><h2>Agentic Reinforcement Learning</h2><p>Learning robust policies for agents that plan, interact, and improve through experience.</p></div></li>
-          <li><span class="interest-index">03</span><div><h2>TrustWorthy AI</h2><p>Understanding vulnerabilities in intelligent systems and designing more trustworthy defenses.</p></div></li>
-          <li><span class="interest-index">04</span><div><h2>AI for Software Engineering</h2><p>Building intelligent tools and agents that make software development more reliable and efficient.</p></div></li>
+          <li><span class="interest-index research-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="20" cy="17" r="2"/><path d="M11 7 6 16m1 2h11M14 7l5 8"/></svg></span><div><h2>Multi-Agent Systems</h2><p>Designing collaborative, adaptive agents that reason and act in changing environments.</p></div></li>
+          <li><span class="interest-index research-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19h16M5 15l5-5 4 2 6-8m-5 0h5v5"/></svg></span><div><h2>Agentic Reinforcement Learning</h2><p>Learning robust policies for agents that plan, interact, and improve through experience.</p></div></li>
+          <li><span class="interest-index research-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9S4 17 4 12V6Z"/><path d="m8 12 3 3 5-6"/></svg></span><div><h2>TrustWorthy AI</h2><p>Understanding vulnerabilities in intelligent systems and designing more trustworthy defenses.</p></div></li>
+          <li><span class="interest-index research-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-12-2 18"/></svg></span><div><h2>AI for Software Engineering</h2><p>Building intelligent tools and agents that make software development more reliable and efficient.</p></div></li>
         </ol>
       </aside>
     </section>
@@ -85,7 +90,7 @@
         <div class="experience-list" aria-label="Professional experience">
           <div class="experience-item">
             <span class="company-mark company-mark--jd"><img src="/img/jd-logo.webp?v=20260824-3" alt="JD.com logo" width="148" height="113" decoding="async"></span>
-            <div><div class="status-meta"><span class="experience-years">2026.07–Present</span><span class="status-current">current</span></div><p class="status-title">JD.com · TGT Talent Program</p><p class="status-detail">Intern</p></div>
+            <div><div class="status-meta"><span class="experience-years">2026.07–Present</span><span class="status-current">current</span></div><p class="status-title">JD.com · 京东</p><p class="status-detail" lang="zh-CN">TGT 顶尖青年技术天才计划</p><p class="status-detail">Intern · Tech Genius Team</p></div>
           </div>
           <div class="experience-item">
             <span class="company-mark company-mark--didi"><img src="/img/didi-logo.webp?v=20260824-3" alt="DiDi logo" width="112" height="37" decoding="async"></span>
@@ -108,19 +113,19 @@
       <article class="overview-card overview-card-wide glass-panel reveal" style="--delay: 310ms">
         <div class="card-heading"><i class="fa-solid fa-trophy"></i><h2>Honors &amp; Awards</h2></div>
         <div class="compact-news-grid honors-grid">
-          <article class="news-item"><time datetime="2026-09">2026.09</time><p>Recognized as a Top Reviewer at NeurIPS 2026.</p></article>
-          <article class="news-item"><time datetime="2026-03">2026.03</time><p>Named one of Wuhan University’s Top Ten Outstanding Youth Students (<strong class="award-context">10</strong> selected university-wide; Award Rate: <strong class="award-rate">10/59,774 ≈ 0.017%</strong>).</p></article>
-          <article class="news-item"><time datetime="2025-12">2025.12</time><p>Received the Pacemaker to Merit Student of WHU honor (<strong class="award-context">60</strong> selected university-wide; Award Rate: <strong class="award-rate">60/59,774 ≈ 0.1%</strong>).</p></article>
-          <article class="news-item"><time datetime="2025-12">2025.12</time><p>Awarded the Role Model of Luojia honor, received by only <strong class="award-context">10</strong> students university-wide (Award Rate: <strong class="award-rate">10/29,450 ≈ 0.034%</strong>).</p></article>
-          <article class="news-item"><time datetime="2025-11">2025.11</time><p>Awarded the Lei Jun Excellence Scholarship (<strong class="award-context">¥100,000</strong>; <strong class="award-context">10</strong> recipients university-wide, including <strong class="award-context">4</strong> undergraduates; Award Rate: <strong class="award-rate">4/29,450 ≈ 0.014%</strong>).</p></article>
-          <article class="news-item"><time datetime="2024-12">2024.12</time><p>Received the National Scholarship (Award Rate: <strong class="award-rate">0.2% nationwide</strong>).</p></article>
+          <article class="news-item"><time datetime="2026-09">2026.09</time><p lang="zh-CN">NeurIPS 2026 Top Reviewer</p></article>
+          <article class="news-item"><time datetime="2026-03">2026.03</time><p lang="zh-CN">武汉大学十大杰出青年（学生）<br><span class="award-detail">全校 <strong class="award-context">10</strong> 人 · 获奖比例 <strong class="award-rate">10/59,774 ≈ 0.017%</strong></span></p></article>
+          <article class="news-item"><time datetime="2025-12">2025.12</time><p lang="zh-CN">武汉大学三好学生标兵<br><span class="award-detail">全校 <strong class="award-context">60</strong> 人 · 获奖比例 <strong class="award-rate">60/59,774 ≈ 0.1%</strong></span></p></article>
+          <article class="news-item"><time datetime="2025-12">2025.12</time><p lang="zh-CN">榜样珞珈<br><span class="award-detail">全校 <strong class="award-context">10</strong> 人 · 本科生获奖比例 <strong class="award-rate">10/29,450 ≈ 0.034%</strong></span></p></article>
+          <article class="news-item"><time datetime="2025-11">2025.11</time><p lang="zh-CN">雷军卓越奖学金<br><span class="award-detail">奖金 <strong class="award-context">10 万元</strong> · 全校 <strong class="award-context">10</strong> 人，其中本科生 <strong class="award-context">4</strong> 人 · 本科生获奖比例 <strong class="award-rate">4/29,450 ≈ 0.014%</strong></span></p></article>
+          <article class="news-item"><time datetime="2024-12">2024.12</time><p lang="zh-CN">国家奖学金<br><span class="award-detail">全国获奖比例 <strong class="award-rate">0.2%</strong></span></p></article>
         </div>
       </article>
     </section>
 
       <section id="publications" class="publications-section glass-panel reveal" style="--delay: 120ms" aria-labelledby="publications-title">
         <div class="section-heading section-heading-inline">
-          <span class="section-label">Selected publications</span>
+          <span class="section-label" id="publications-title">Selected publications</span>
           <span class="heading-rule"></span>
           <a class="section-count section-link" href="/Publications/">View all publications <i class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -178,6 +183,6 @@
   </main>
 
   <footer class="site-footer"><span>© 2026 Fengyuan Ran</span><span>Designed for research, built for conversation.</span></footer>
-  <script src="/js/main.js?v=20260824-2"></script>
+  <script src="/js/live-main.js"></script>
 </body>
 </html>
